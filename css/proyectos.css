@@ -1,0 +1,61 @@
+@import "./style.css";
+
+main > section h2 {
+  text-align: center;
+}
+
+.projects-section {
+  max-width: 70%;
+  margin: 1rem auto;
+}
+
+.projects-section > ul {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.projects-section > ul > li {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 40%);
+}
+
+.projects-section > ul > li h4 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.projects-section > ul > li img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.projects-section > ul > li p {
+  padding: 1rem;
+}
+
+.projects-section ul ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.projects-section li a {
+  display: block;
+  font-size: 0;
+  width: 2rem;
+  height: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.github {
+  background-image: url("../icons/github.png");
+}
+
+.view-project {
+  background-image: url("../icons/view-project.png");
+}

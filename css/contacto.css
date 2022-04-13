@@ -1,0 +1,17 @@
+@import "./style.css";
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+section a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
